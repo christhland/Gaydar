@@ -1428,7 +1428,24 @@ class GLMap(private val jsettings : Settings.jsonsettings) : InputAdapter(), App
     }
 
     weaponsToFilter = if (filterWeapon != 1) {
-      arrayListOf("")
+      arrayListOf(              
+              "Item_Weapon_M1911_C",
+              "Item_Weapon_NagantM1895_C",
+              "Item_Weapon_M9_C",
+              "Item_Weapon_DP28_C",
+              "Item_Weapon_Saiga12_C",
+              "Item_Weapon_UMP_C",
+              "Item_Weapon_Vector_C",
+              "Item_Weapon_UZI_C",
+              "Item_Weapon_VSS_C",
+              "Item_Weapon_Thompson_C",
+              "Item_Weapon_Berreta686_C",
+              "Item_Weapon_Winchester_C",
+              "Item_Weapon_Win94_C",
+              "Item_Weapon_G18_C",
+              "Item_Weapon_SawenOff_C",
+              "Item_Weapon_Rhino_C"
+                    )
     } else {
       arrayListOf(
               "Item_Weapon_AWM_C",
@@ -1465,7 +1482,7 @@ class GLMap(private val jsettings : Settings.jsonsettings) : InputAdapter(), App
     }
 
     healsToFilter = if (filterHeals != 1) {
-      arrayListOf("")
+      arrayListOf("Item_Heal_Bandage_C")
     } else {
       arrayListOf(
               "Item_Heal_Bandage_C",
@@ -1478,7 +1495,11 @@ class GLMap(private val jsettings : Settings.jsonsettings) : InputAdapter(), App
     }
 
     ammoToFilter = if (filterAmmo != 1) {
-      arrayListOf("")
+      arrayListOf(              
+              "Item_Ammo_9mm_C",
+              "Item_Ammo_45ACP_C",
+              "Item_Ammo_Flare_C",
+              "Item_Ammo_12Guage_C")
     } else {
       arrayListOf(
               "Item_Ammo_762mm_C",
