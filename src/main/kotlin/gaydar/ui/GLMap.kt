@@ -1408,20 +1408,13 @@ class GLMap(private val jsettings : Settings.jsonsettings) : InputAdapter(), App
     } else {
       arrayListOf(
               "Item_Attach_Weapon_Magazine_ExtendedQuickDraw_SniperRifle_C",
-              "Item_Attach_Weapon_Magazine_Extended_SniperRifle_C",
               "Item_Attach_Weapon_Magazine_ExtendedQuickDraw_Large_C",
-              "Item_Attach_Weapon_Magazine_Extended_Large_C",
               "Item_Attach_Weapon_Stock_SniperRifle_CheekPad_C",
               "Item_Attach_Weapon_Stock_SniperRifle_BulletLoops_C",
               "Item_Attach_Weapon_Stock_AR_Composite_C",
               "Item_Attach_Weapon_Muzzle_Suppressor_SniperRifle_C",
-              "Item_Attach_Weapon_Muzzle_Suppressor_Large_C",
-              "Item_Attach_Weapon_Muzzle_Suppressor_Medium_C",
-              "Item_Attach_Weapon_Muzzle_FlashHider_Medium_C",
-              "Item_Attach_Weapon_Magazine_ExtendedQuickDraw_Medium_C",
-              "Item_Attach_Weapon_Magazine_Extended_Medium_C",
+              "Item_Attach_Weapon_Muzzle_Suppressor_Large_C",,
               "Item_Attach_Weapon_Muzzle_FlashHider_Large_C",
-              "Item_Attach_Weapon_Muzzle_Compensator_Medium_C",
               "Item_Attach_Weapon_Lower_Foregrip_C",
               "Item_Attach_Weapon_Lower_AngledForeGrip_C"
       )
@@ -1440,35 +1433,19 @@ class GLMap(private val jsettings : Settings.jsonsettings) : InputAdapter(), App
               "Item_Weapon_Groza_C",
               "Item_Weapon_HK416_C",
               "Item_Weapon_SCAR-L_C",
-              "Item_Weapon_Mini14_C",
               "Item_Weapon_M16A4_C",
               "Item_Weapon_SKS_C",
               "Item_Weapon_AK47_C",
-              "Item_Weapon_DP28_C",
-              "Item_Weapon_Saiga12_C",
-              "Item_Weapon_UMP_C",
-              "Item_Weapon_Vector_C",
-              "Item_Weapon_UZI_C",
               "Item_Weapon_VSS_C",
-              "Item_Weapon_Thompson_C",
-              "Item_Weapon_Berreta686_C",
-              "Item_Weapon_Winchester_C",
-              "Item_Weapon_Win94_C",
-              "Item_Weapon_G18_C",
-              "Item_Weapon_SawenOff_C",
-              "Item_Weapon_Rhino_C",
               "Item_Weapon_FlareGun_C",
-              "Item_Weapon_M1911_C",
-              "Item_Weapon_NagantM1895_C",
-              "Item_Weapon_M9_C"
       )
     }
 
     healsToFilter = if (filterHeals != 1) {
-      arrayListOf("")
+      arrayListOf("Item_Heal_Bandage_C",)
     } else {
       arrayListOf(
-              "Item_Heal_Bandage_C",
+    
               "Item_Heal_MedKit_C",
               "Item_Heal_FirstAid_C",
               "Item_Boost_PainKiller_C",
@@ -1485,10 +1462,7 @@ class GLMap(private val jsettings : Settings.jsonsettings) : InputAdapter(), App
               "Item_Ammo_556mm_C",
               "Item_Ammo_300Magnum_C",
               "Item_Weapon_Pan_C",
-              "Item_Ammo_9mm_C",
-              "Item_Ammo_45ACP_C",
-              "Item_Ammo_Flare_C",
-              "Item_Ammo_12Guage_C"
+
       )
     }
 
